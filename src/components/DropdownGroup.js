@@ -26,9 +26,9 @@ const DropdownGroup = ({ dropdownOptions = {}, handleOptionSwitch }) => {
           </div>
         );
       })}
-      {/* todo: create a dropdown menu that contains the titles as options  ex: (sports, fruits, vegetables) */}
+      {/* todo: create a dropdown menu (dropdown x) that contains the titles as options  ex: (sports, fruits, vegetables) */}
 
-      {/* todo: create a second dropdown menu that contains the selected title's options, ex: if sports is selected then (Baseball, Football, Hockey) are options    */}
+      {/* todo: create a second dropdown menu (dropdown y) that contains the selected title's options, ex: if sports is selected then (Baseball, Football, Hockey) are options    */}
 
       {/* create a button with the text "replace" that has the click event handleOptionSwitch */}
     </div>
