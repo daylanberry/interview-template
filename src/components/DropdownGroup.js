@@ -1,11 +1,6 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 
-// TODO
-// write two dropdown menus
-// the first dropdown menu will contain the titles  ex: (sports, fruits, vegetables)
-// the second dropdown will contain a list of categories which will be dynamically displayed depending on the selected title
-// example: if sports is selected in the first dropdown, then the second dropdown should have (Baseball, Football, Hockey) as options
 const DropdownGroup = ({ dropdownOptions = {}, handleOptionSwitch }) => {
   //What are lines 21-23 doing? What do the empty strings mean?
   const [replaceTerm, setReplaceTerm] = useState("");
@@ -27,13 +22,17 @@ const DropdownGroup = ({ dropdownOptions = {}, handleOptionSwitch }) => {
         );
       })}
       {/* todo: create a dropdown menu (dropdown x) that contains the titles as options  ex: (sports, fruits, vegetables) */}
+      {/* onChange updates firstDropdownOption */}
 
       {/* todo: create a second dropdown menu (dropdown y) that contains the selected title's options, ex: if sports is selected then (Baseball, Football, Hockey) are options    */}
+      {/* todo: onChange updates firstDropdownOption */}
+
+      {/* todo: create an input box with the placeholder "updated value" */}
+      {/* todo: onChange updates replaceTerm */}
 
       {/* create a button with the text "replace" that has the click event handleOptionSwitch */}
     </div>
   );
 };
 
-//What is this line doing?
 export default DropdownGroup;
