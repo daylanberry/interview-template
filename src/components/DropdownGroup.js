@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-import PropTypes from "prop-types";
 
 const DropdownGroup = ({ dropdownOptions = {}, handleOptionSwitch }) => {
-  //What are lines 21-23 doing? What do the empty strings mean?
   const [replaceTerm, setReplaceTerm] = useState("");
   const [firstDropdownOption, setFirstDropdownOption] = useState("");
   const [secondDropdownOption, setSecondDropdownOption] = useState("");
