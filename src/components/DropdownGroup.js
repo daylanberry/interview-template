@@ -22,7 +22,7 @@ const DropdownGroup = ({ dropdownOptions = {}, handleOptionSwitch }) => {
       {/* todo: create a dropdown menu (dropdown x) that contains the titles as options  ex: (sports, fruits, vegetables) */}
       {/* onChange updates firstDropdownOption */}
 
-      {/* todo: create a second dropdown menu (dropdown y) that contains the selected title's options, ex: if sports is selected then (Baseball, Football, Hockey) are options    */}
+      {/* todo: create a second dropdown menu (dropdown y) that contains the selected title's options, ex: if "sports" is selected then (Baseball, Football, Hockey) are options    */}
       {/* todo: onChange updates firstDropdownOption */}
 
       {/* todo: create an input box with the placeholder "updated value" */}
