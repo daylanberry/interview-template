@@ -7,18 +7,8 @@ const DropdownGroup = ({ dropdownOptions = {}, handleOptionSwitch }) => {
 
   return (
     <div>
-      {Object.keys(dropdownOptions).map((option) => {
-        return (
-          <div>
-            <p>{option}</p>
-            <ul>
-              {dropdownOptions[option].map((op) => {
-                return <li> {op.label}</li>;
-              })}
-            </ul>
-          </div>
-        );
-      })}
+      {/* todo: display the dropdownOptions keys as a list with nested bullet points rendering the corresponding values  */}
+
       {/* todo: create a dropdown menu (dropdown x) that contains the dropdownOptions entries ex: (sports, fruits, vegetables) */}
       {/* todo: onChange updates firstDropdownOption to selected entry */}
 
